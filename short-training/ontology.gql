@@ -21,6 +21,11 @@ oil-platform sub entity
 
 country sub entity
   has name
+  plays location
+  plays located;
+
+region sub entity
+  has name
   plays location;
 
 
