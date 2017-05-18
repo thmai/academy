@@ -5,6 +5,8 @@ bond sub entity
 
 article sub entity
   has subject
+  has uri
+  has title
   plays information;
 
 company sub entity
@@ -44,6 +46,8 @@ located-in sub relation
   relates located;
 
 
+title sub resource datatype string;
+uri sub resource datatype string;
 subject sub resource datatype string;
 name sub resource datatype string;
 distance-from-coast sub resource datatype long;
