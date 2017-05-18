@@ -1,0 +1,53 @@
+insert
+
+bond sub entity
+  plays issued;
+
+article sub entity
+  has subject
+  plays information;
+
+company sub entity
+  plays issuer
+  plays owner;
+
+oil-platform sub entity
+  has distance-from-coast
+  plays owned
+  plays located
+  plays affected;
+
+country sub entity
+  has name
+  plays location;
+
+
+affected sub role; information sub role;
+affects sub relation
+  relates affected
+  relates information;
+
+issuer sub role; issued sub role;
+issues sub relation
+  relates issuer
+  relates issued;
+
+owner sub role; owned sub role;
+owns sub relation
+  relates owner
+  relates owned;
+
+
+location sub role; located sub role;
+located-in sub relation
+  relates location
+  relates located;
+
+
+subject sub resource datatype string;
+name sub resource datatype string;
+distance-from-coast sub resource datatype long;
+
+
+
+
