@@ -1,0 +1,12 @@
+insert $x isa company has name "BP";
+insert $x isa company has name "Centrica";
+insert $x isa company has name "Chevron";
+insert $x isa company has name "China Petrochemical Corporation";
+insert $x isa company has name "ENI";
+insert $x isa company has name "Exxon Mobil";
+insert $x isa company has name "Kuwait Energy Co";
+insert $x isa company has name "Lukoil";
+insert $x isa company has name "Qatargas";
+insert $x isa company has name "Shell";
+insert $x isa company has name "TOTAL";
+insert $x isa company has name "YPF";

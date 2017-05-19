@@ -1,0 +1,101 @@
+ID,DistCoast,Country,BelongsTo
+1,5,Italy,ENI
+2,46,Niger,TOTAL
+3,42,Afghanistan,YPF
+4,11,Congo,Lukoil
+5,18,Italy,TOTAL
+6,19,Trinidad and Tobago,Shell
+7,40,Angola/Congo Unitized Area,YPF
+8,,Uzbekistan,Chevron
+9,,Cyprus,Shell
+10,24,South Korea,Exxon Mobil
+11,,UAE - Sharjah,Lukoil
+12,45,Egypt,Kuwait Energy Co
+13,10,Albania,China Petrochemical Corporation
+14,2,Brazil,Qatargas
+15,43,Chile,Shell
+16,6,Germany,Chevron
+17,,Cambodia,Exxon Mobil
+18,33,China,China Petrochemical Corporation
+19,,Philippines,China Petrochemical Corporation
+20,,South Korea,Centrica
+21,43,Japan,Chevron
+22,,Jordan,BP
+23,45,Faroe Islands,Centrica
+24,4,Saudi Arabia,BP
+25,2,Equatorial Guinea,Exxon Mobil
+26,,Senegal,Centrica
+27,5,Georgia,Centrica
+28,,Kazakhstan,Shell
+29,17,Papua New Guinea,China Petrochemical Corporation
+30,,Malaysia/Thailand JDA,Qatargas
+31,,Portugal,Centrica
+32,38,Taiwan,Exxon Mobil
+33,,UAE - Ajman,Chevron
+34,,UAE - Ajman,Lukoil
+35,4,Ghana,TOTAL
+36,,Thailand,Qatargas
+37,,Mozambique,TOTAL
+38,42,Timor Sea JPDA,Qatargas
+39,5,Kazakhstan,Shell
+40,,USA,BP
+41,17,USA,Kuwait Energy Co
+42,39,Uzbekistan,Qatargas
+43,37,UK,Shell
+44,27,Guatemala,China Petrochemical Corporation
+45,45,Italy,Exxon Mobil
+46,19,Italy,Lukoil
+47,6,Faroe Islands,ENI
+48,35,Guinea,Kuwait Energy Co
+49,,Uganda,TOTAL
+50,,United Kingdom,YPF
+51,,Argentina,Shell
+52,,Algeria,China Petrochemical Corporation
+53,,USA,BP
+54,,Kazakhstan,TOTAL
+55,2,Turkey,Shell
+56,33,Chile,Lukoil
+57,10,Guinea-Bissau,Lukoil
+58,,Libya/Tunisia JEZ,ENI
+59,23,Canada,China Petrochemical Corporation
+60,,Spain,BP
+61,44,Kuwait,Lukoil
+62,2,Guatemala,TOTAL
+63,3,Equatorial Guinea,Qatargas
+64,3,Chile,Centrica
+65,,Nigeria,Qatargas
+66,12,China,Shell
+67,45,Italy,Chevron
+68,14,USA,Lukoil
+69,36,China,Lukoil
+70,,Madagascar,Kuwait Energy Co
+71,26,UAE - Dubai,BP
+72,,USA,China Petrochemical Corporation
+73,,Iran,TOTAL
+74,,Chile,ENI
+75,40,Angola,BP
+76,4,Turkmenistan,Exxon Mobil
+77,19,Iraq,Shell
+78,21,Mauritania,BP
+79,,Democratic Republic of Congo,Exxon Mobil
+80,,Uganda,Kuwait Energy Co
+81,,Cyprus,Exxon Mobil
+82,,Turkmenistan,Centrica
+83,,Cuba,Qatargas
+84,,Benin,TOTAL
+85,,Thailand,Lukoil
+86,13,Papua New Guinea,ENI
+87,,Kyrgyzstan,Qatargas
+88,,Taiwan,Exxon Mobil
+89,11,Faroe Islands,TOTAL
+90,,Sweden,Lukoil
+91,,Cote d\'Ivoire,YPF
+92,20,Trinidad and Tobago,Qatargas
+93,41,Kazakhstan,Shell
+94,12,Falkland Islands,Qatargas
+95,41,Latvia,ENI
+96,,Moldova,Kuwait Energy Co
+97,,Namibia,Shell
+98,15,Pakistan,Shell
+99,23,South Sudan,TOTAL
+100,29,USA,Chevron
