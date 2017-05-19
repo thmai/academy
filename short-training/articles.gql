@@ -1,0 +1,4 @@
+insert $a1 isa information-source has title "Italy’s tangled oil and gas referendum"
+has uri "http://www.politico.eu/article/italy-referendum-oil-drilling-platforms-offshore-matteo-renzi-rigs-gas-renewables/" has subject "Italian Referendum";
+insert $a2 isa information-source has title "Italy oil referendum a vote that Matteo Renzi does not want"
+has uri "https://www.ft.com/content/20e47b6a-0244-11e6-9cc4-27926f2b110c" has subject "Italian Referendum";
