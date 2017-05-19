@@ -1,0 +1,9 @@
+# Base entity is "bondIssuer"
+
+match $issuer isa company has name <issuerName>;
+insert
+for (<bonds.bond>) do {
+  $bond isa bond has name <bondName>
+  has risk @double(<bondRisk>);
+  (issuer: $issuer, issued: $bond) isa issues;
+}

@@ -8,7 +8,6 @@
   </header>
 
 
-<issuers>
 <bondIssuer>
 <issuerName>BP</issuerName>
 <bonds>
@@ -260,5 +259,4 @@
 </bond>
 </bonds>
 </bondIssuer>
-</issuers>
 </data>
