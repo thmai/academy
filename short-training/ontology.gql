@@ -10,11 +10,13 @@ article sub entity
   plays information;
 
 company sub entity
+  has company-id
   plays issuer
   plays owner;
 
 oil-platform sub entity
   has distance-from-coast
+  has platform-id
   plays owned
   plays located
   plays affected;
@@ -51,6 +53,8 @@ located-in sub relation
   relates located;
 
 
+company-id sub resource datatype string;
+platform-id sub resource datatype string;
 title sub resource datatype string;
 uri sub resource datatype string;
 subject sub resource datatype string;
