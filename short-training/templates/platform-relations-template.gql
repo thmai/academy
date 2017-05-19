@@ -1,0 +1,7 @@
+match
+$platform isa oil-platform has platform-id <ID>;
+$country isa country has name <Country>;
+$company isa company has name <BelongsTo>;
+insert
+(located: $platform, location: $country) isa located-in;
+(owned: $platform, owner: $company) isa owns;

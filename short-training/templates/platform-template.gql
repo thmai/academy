@@ -1,0 +1,5 @@
+insert
+$x isa oil-platform has platform-id <ID>
+if (<DistCoast> != "") do {
+  has distance-from-coast @long(<DistCoast>)
+};
