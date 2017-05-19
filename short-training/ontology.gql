@@ -1,7 +1,8 @@
 insert
 
 bond sub entity
-  plays issued;
+  plays issued
+  plays affected;
 
 article sub entity
   has subject
