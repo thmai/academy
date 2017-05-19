@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0">
+   <xs:element name="data">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="1"  maxOccurs="1" name="header">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element minOccurs="1" maxOccurs="1" name="name" type="xs:string"/>
+                     <xs:element minOccurs="1" maxOccurs="1" name="version" type="xs:int"/>
+                     <xs:element minOccurs="1" maxOccurs="1" name="date" type="xs:date"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+            <xs:element minOccurs="1" maxOccurs="unbounded" name="bondIssuer">
+              <xs:element minOccurs="1" maxOccurs="1" name="issuerName" type="xs:string"/>
+              <xs:element minOccurs="1" maxOccurs="1" name="bonds">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="unbounded" name="bond">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="1" maxOccurs="1" name="bondName" type="xs:string"/>
+                          <xs:element minOccurs="1" maxOccurs="1" name="bondRisk" type="xs:decimal"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>
