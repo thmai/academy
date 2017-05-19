@@ -272,9 +272,9 @@ match $country isa country has name "Uganda"; $region isa region has name "Afric
 insert (located: $country, location: $region) isa located-in;
 match $country isa country has name "Ukraine"; $region isa region has name "C.I.S.";
 insert (located: $country, location: $region) isa located-in;
-match $country isa country has name "United Kingdom"; $region isa region has name "Europe";
+match $country isa country has name "UK"; $region isa region has name "Europe";
 insert (located: $country, location: $region) isa located-in;
-match $country isa country has name "United States"; $region isa region has name "North America";
+match $country isa country has name "USA"; $region isa region has name "North America";
 insert (located: $country, location: $region) isa located-in;
 match $country isa country has name "Uruguay"; $region isa region has name "Latin America";
 insert (located: $country, location: $region) isa located-in;
