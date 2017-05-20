@@ -11,7 +11,7 @@ article sub entity
   plays information;
 
 company sub entity
-  has company-id
+  has name
   plays issuer
   plays owner;
 
