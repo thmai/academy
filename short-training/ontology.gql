@@ -1,6 +1,8 @@
 insert
 
 bond sub entity
+  has name
+  has risk
   plays issued
   plays affected;
 
@@ -61,6 +63,7 @@ uri sub resource datatype string;
 subject sub resource datatype string;
 name sub resource datatype string;
 distance-from-coast sub resource datatype long;
+risk sub resource datatype double;
 
 
 
